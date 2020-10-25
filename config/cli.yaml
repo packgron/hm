@@ -1,0 +1,13 @@
+name: hm
+version: "1.0"
+args:
+    - config:
+        takes_value: true
+        short: c
+        value_name: config
+subcommands:
+    - items:
+        subcommands:
+            - add:
+
+            - del:
