@@ -83,43 +83,43 @@ $ hm stop                                   // End session, clear pass, sync dir
 
 ## TODO:
 
-[] config.yaml parsing:
-    [] version parsing
-    [] sync parsing:
-        [] basic linking config
-        [] git:// parsing
-        [] crypt:// parsing with nested vcs or link parsing
-    [] deps parsing
+- [] config.yaml parsing:
+    - [] version parsing
+    - [] sync parsing:
+        - [] basic linking config
+        - [] git:// parsing
+        - [] crypt:// parsing with nested vcs or link parsing
+    - [] deps parsing
 
-[] context:
-    [] version + check
-    [] sync model
-       [] linking list
-       [] git pull list
-       [] crypt dir list
-    [] deb pakage mapping hash table
+- [] context:
+    - [] version + check
+    - [] sync model
+       - [] linking list
+       - [] git pull list
+       - [] crypt dir list
+    - [] deb pakage mapping hash table
 
-[] mechanizims:
-    [] model from dir
-    [] config/dir_model diff
-    [] linking calls
-    [] git clone calls
-    [] crypt:
-        [] password store
-        [] crypt dir population
-        [] mounting
-    [] new sync add
-    [] diff:
-        [] main directory comparison
-        [] git directory diffs
-        [] crypto directory diffs
-    [] sync:
-        [] push main directory
-        [] push sub git directories
-        [] push crypt dirs
-    [] packages:
-        [] current pakages diff (not in config)
-        [] package installion
-    [] session start/end
+- [] mechanizims:
+    - [] model from dir
+    - [] config/dir_model diff
+    - [] linking calls
+    - [] git clone calls
+    - [] crypt:
+        - [] password store
+        - [] crypt dir population
+        - [] mounting
+    - [] new sync add
+    - [] diff:
+        - [] main directory comparison
+        - [] git directory diffs
+        - [] crypto directory diffs
+    - [] sync:
+        - [] push main directory
+        - [] push sub git directories
+        - [] push crypt dirs
+    - [] packages:
+        - [] current pakages diff (not in config)
+        - [] package installion
+    - [] session start/end
 
 
